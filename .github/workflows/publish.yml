@@ -1,0 +1,54 @@
+name: KStock public report mirror (GitHub Pages)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+  schedule:
+    # Weekdays 09:00-15:30 KST (UTC 00:00-06:30), every 30 minutes.
+    - cron: '*/30 0-6 * * 1-5'
+    # Daily 22:30 KST after the normal evening report/archive cycle.
+    - cron: '30 13 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: kstock-public-pages
+  cancel-in-progress: false
+
+jobs:
+  mirror-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout PUBLIC repository only
+        uses: actions/checkout@v4
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate mirror code and privacy tests
+        run: |
+          python -m py_compile scripts/mirror_report.py
+          python -m unittest discover -s tests -v
+      - name: Download and validate PUBLIC Sites report (anonymous GET)
+        run: python scripts/mirror_report.py --output _site
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload validated static artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy atomic Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
