@@ -30,7 +30,7 @@ class MirrorSafetyTests(unittest.TestCase):
 
     def test_rejects_html_login_response(self):
         with self.assertRaises(ValueError):
-            validate(b"<!doctype html><title>KStock</title>资料", b'{"ok":true}')
+            validate(b"<!doctype html><title>KStock</title>", b'{"ok":true}')
 
     def test_rejects_invalid_json(self):
         with self.assertRaises(json.JSONDecodeError):
