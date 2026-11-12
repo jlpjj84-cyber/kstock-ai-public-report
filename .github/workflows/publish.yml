@@ -52,3 +52,7 @@ jobs:
       - name: Deploy atomic Pages artifact
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Confirm external HTTP 200 and report integrity
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python scripts/verify_pages.py
