@@ -4,23 +4,79 @@
   "read_only": true,
   "source": {
     "url": "https://kstock-ai-console.keenskunk257.chatgpt.site",
-    "assessment_date": "2026-11-12",
-    "account_observed_at": "2026-11-12T15:25:38.231298+09:00",
-    "checked_at": "2026-11-13T13:20:10.062Z",
-    "archive_count": 8,
-    "available_archive_count": 8,
+    "assessment_date": "2026-11-13",
+    "account_observed_at": "2026-11-13T13:25:38.359966+09:00",
+    "checked_at": "2026-11-13T20:34:47.398Z",
+    "archive_count": 9,
+    "available_archive_count": 9,
     "scope_limited": false,
     "analysis_revision": "0fa7fc10c46163155211308b59084a23e458547a"
   },
   "training": {
     "status": "검증 대기",
     "evidenced_models": 0,
-    "recorded_training_samples": 7952,
+    "recorded_training_samples": 8023,
     "recorded_validation_samples": 2130,
     "recorded_gate_ready": false,
-    "recorded_validation_brier": 0.23919308532016262,
-    "recorded_baseline_brier": 0.23756968369573578,
+    "recorded_validation_brier": 0.23851147492636532,
+    "recorded_baseline_brier": 0.23711497586033076,
     "history": [
+      {
+        "time": "2026-11-13T15:20:37.236463+09:00",
+        "kind": "evaluation",
+        "version": null,
+        "samples": 8023,
+        "completed": false,
+        "status": "검증 대기"
+      },
+      {
+        "time": "2026-11-13T13:25:38.359966+09:00",
+        "kind": "evaluation",
+        "version": null,
+        "samples": 8023,
+        "completed": false,
+        "status": "검증 대기"
+      },
+      {
+        "time": "2026-11-13T13:10:46.733612+09:00",
+        "kind": "evaluation",
+        "version": null,
+        "samples": 8023,
+        "completed": false,
+        "status": "검증 대기"
+      },
+      {
+        "time": "2026-11-13T12:55:35.642196+09:00",
+        "kind": "evaluation",
+        "version": null,
+        "samples": 8023,
+        "completed": false,
+        "status": "검증 대기"
+      },
+      {
+        "time": "2026-11-13T12:40:47.574931+09:00",
+        "kind": "evaluation",
+        "version": null,
+        "samples": 8023,
+        "completed": false,
+        "status": "검증 대기"
+      },
+      {
+        "time": "2026-11-13T12:25:46.064614+09:00",
+        "kind": "evaluation",
+        "version": null,
+        "samples": 8023,
+        "completed": false,
+        "status": "검증 대기"
+      },
+      {
+        "time": "2026-11-13T12:10:56.802846+09:00",
+        "kind": "evaluation",
+        "version": null,
+        "samples": 8023,
+        "completed": false,
+        "status": "검증 대기"
+      },
       {
         "time": "2026-11-12T15:25:38.231298+09:00",
         "kind": "evaluation",
@@ -60,100 +116,44 @@
         "samples": 7952,
         "completed": false,
         "status": "검증 대기"
-      },
-      {
-        "time": "2026-11-12T14:40:44.154205+09:00",
-        "kind": "evaluation",
-        "version": null,
-        "samples": 7952,
-        "completed": false,
-        "status": "검증 대기"
-      },
-      {
-        "time": "2026-11-12T14:25:42.786662+09:00",
-        "kind": "evaluation",
-        "version": null,
-        "samples": 7952,
-        "completed": false,
-        "status": "검증 대기"
-      },
-      {
-        "time": "2026-11-12T14:10:45.928603+09:00",
-        "kind": "evaluation",
-        "version": null,
-        "samples": 7952,
-        "completed": false,
-        "status": "검증 대기"
-      },
-      {
-        "time": "2026-11-12T13:55:40.269590+09:00",
-        "kind": "evaluation",
-        "version": null,
-        "samples": 7952,
-        "completed": false,
-        "status": "검증 대기"
-      },
-      {
-        "time": "2026-11-12T13:40:48.311429+09:00",
-        "kind": "evaluation",
-        "version": null,
-        "samples": 7952,
-        "completed": false,
-        "status": "검증 대기"
-      },
-      {
-        "time": "2026-11-12T13:25:35.863225+09:00",
-        "kind": "evaluation",
-        "version": null,
-        "samples": 7952,
-        "completed": false,
-        "status": "검증 대기"
-      },
-      {
-        "time": "2026-11-12T13:10:47.968236+09:00",
-        "kind": "evaluation",
-        "version": null,
-        "samples": 7952,
-        "completed": false,
-        "status": "검증 대기"
       }
     ]
   },
   "predictions": {
-    "eligible": 142,
-    "total": 497,
-    "overall": 61.267605633802816,
-    "cohorts": 2,
+    "eligible": 213,
+    "total": 568,
+    "overall": 65.25821596244131,
+    "cohorts": 3,
     "windows": [
       {
         "size": 5,
-        "samples": 142,
-        "days": 2,
+        "samples": 213,
+        "days": 3,
         "accuracy": null,
         "change": null,
-        "start": "2026-10-20",
-        "end": "2026-11-04",
-        "reason": "확인된 예측 거래일 2 / 5일"
+        "start": "2026-10-21",
+        "end": "2026-11-05",
+        "reason": "확인된 예측 거래일 3 / 5일"
       },
       {
         "size": 20,
-        "samples": 142,
-        "days": 2,
+        "samples": 213,
+        "days": 3,
         "accuracy": null,
         "change": null,
-        "start": "2026-09-24",
-        "end": "2026-11-04",
-        "reason": "확인된 예측 거래일 2 / 20일"
+        "start": "2026-09-28",
+        "end": "2026-11-05",
+        "reason": "확인된 예측 거래일 3 / 20일"
       },
       {
         "size": 60,
-        "samples": 142,
-        "days": 2,
+        "samples": 213,
+        "days": 3,
         "accuracy": null,
         "change": null,
         "start": "2026-08-31",
-        "end": "2026-11-04",
-        "reason": "확인된 예측 거래일 2 / 60일"
+        "end": "2026-11-05",
+        "reason": "확인된 예측 거래일 3 / 60일"
       }
     ],
     "trend": [
@@ -168,18 +168,24 @@
         "w5": null,
         "w20": null,
         "w60": null
+      },
+      {
+        "date": "2026-11-05",
+        "w5": null,
+        "w20": null,
+        "w60": null
       }
     ]
   },
   "confidence": {
-    "samples": 142,
-    "days": 2,
+    "samples": 213,
+    "days": 3,
     "brier": null,
     "baseline": null,
     "skill": null,
     "ece": null,
-    "start": "2026-10-20",
-    "end": "2026-11-04",
+    "start": "2026-10-21",
+    "end": "2026-11-05",
     "reason": "동일한 5거래일의 사전 예측 30건 이상 필요",
     "bins": [
       {
@@ -192,16 +198,16 @@
       },
       {
         "label": "20–40%",
-        "samples": 0,
-        "days": 0,
+        "samples": 3,
+        "days": 1,
         "predicted": null,
         "actual": null,
         "gap": null
       },
       {
         "label": "40–60%",
-        "samples": 142,
-        "days": 2,
+        "samples": 210,
+        "days": 3,
         "predicted": null,
         "actual": null,
         "gap": null
@@ -226,18 +232,18 @@
   },
   "account": {
     "start": "2026-11-03",
-    "returnPct": 3.236,
+    "returnPct": 3.398,
     "mdd": 1.268,
-    "winRate": 70,
-    "averagePnl": 27647.994,
-    "sells": 10,
-    "wins": 7,
+    "winRate": 76.92307692307692,
+    "averagePnl": 29619.220769230767,
+    "sells": 13,
+    "wins": 10,
     "benchmark": {
       "start": "2026-11-03",
-      "end": "2026-11-12",
-      "strategy": 3.235985199999991,
-      "hold": -4.681945510906349,
-      "excess": 7.91793071090634,
+      "end": "2026-11-13",
+      "strategy": 3.3981676999999877,
+      "hold": -5.755694906577935,
+      "excess": 9.153862606577922,
       "strategyMdd": 0.5135480697905067,
       "holdMdd": 11.469897391519348,
       "points": [
@@ -280,14 +286,19 @@
           "date": "2026-11-12",
           "strategy": 3.235985199999991,
           "hold": -4.681945510906349
+        },
+        {
+          "date": "2026-11-13",
+          "strategy": 3.3981676999999877,
+          "hold": -5.755694906577935
         }
       ]
     }
   },
   "strategies": {
     "start": "2026-11-03",
-    "end": "2026-11-12T15:25:38.231298+09:00",
-    "later": 0,
+    "end": "2026-11-13T13:25:38.359966+09:00",
+    "later": 5,
     "reason": null,
     "groups": [
       {
@@ -304,11 +315,11 @@
       {
         "id": "experiment",
         "label": "별도 실험매매",
-        "buys": 18,
-        "sells": 10,
-        "pnl": 276479.94,
-        "winRate": 70,
-        "averagePnl": 27647.994,
+        "buys": 21,
+        "sells": 13,
+        "pnl": 385049.87,
+        "winRate": 76.92307692307693,
+        "averagePnl": 29619.220769230767,
         "returnPct": null,
         "mdd": null
       },
@@ -353,7 +364,7 @@
       {
         "name": "사전 예측·결과 시점",
         "status": "pending",
-        "detail": "채점 가능 142 / 497건 · 나머지 평가 제외"
+        "detail": "채점 가능 213 / 568건 · 나머지 평가 제외"
       },
       {
         "name": "계좌·거래·검증 로그 시각",
@@ -385,53 +396,61 @@
       {
         "name": "trades_v5.csv",
         "status": "verified",
-        "sha256": "082ca5ca58cb47dd426372db5ee540271ee6704d738792a49e4f256706000bb1",
-        "expected_sha256": "082ca5ca58cb47dd426372db5ee540271ee6704d738792a49e4f256706000bb1",
-        "bytes": 26127,
-        "expected_bytes": 26127
+        "sha256": "ee4a85e7d39ea37e1334e6fd053953d9209b6aa66fa3d4fe0ddf36d0761eeac2",
+        "expected_sha256": "ee4a85e7d39ea37e1334e6fd053953d9209b6aa66fa3d4fe0ddf36d0761eeac2",
+        "bytes": 29113,
+        "expected_bytes": 29113
       },
       {
         "name": "daily_v5.csv",
         "status": "verified",
-        "sha256": "7e3018f0771fb81a7ee383e12663f84c0d1a91f0ee12260035a547459ecc4166",
-        "expected_sha256": "7e3018f0771fb81a7ee383e12663f84c0d1a91f0ee12260035a547459ecc4166",
-        "bytes": 16239,
-        "expected_bytes": 16239
+        "sha256": "17ca7a3d4757643bb5a8a2aaca22a6d26d2f2e33b609edb5eb45d2fb1b70c8e1",
+        "expected_sha256": "17ca7a3d4757643bb5a8a2aaca22a6d26d2f2e33b609edb5eb45d2fb1b70c8e1",
+        "bytes": 16626,
+        "expected_bytes": 16626
       },
       {
         "name": "intraday_v5.csv",
         "status": "verified",
-        "sha256": "064e016f607b1919810827370e34e742fe508550487ef27905320992a37f07b2",
-        "expected_sha256": "064e016f607b1919810827370e34e742fe508550487ef27905320992a37f07b2",
-        "bytes": 408136,
-        "expected_bytes": 408136
+        "sha256": "4b520fe6d8543d77e02cb54471f6d776bfd68b5aebba0b676646840d7befa0a6",
+        "expected_sha256": "4b520fe6d8543d77e02cb54471f6d776bfd68b5aebba0b676646840d7befa0a6",
+        "bytes": 410431,
+        "expected_bytes": 410431
       },
       {
         "name": "ai_forecasts_v6.csv",
         "status": "verified",
-        "sha256": "c1353bde92b454149c3daf7ddf528e1a07c4c7c1d036c34968fee76b13785f59",
-        "expected_sha256": "c1353bde92b454149c3daf7ddf528e1a07c4c7c1d036c34968fee76b13785f59",
-        "bytes": 69383,
-        "expected_bytes": 69383
+        "sha256": "cc57b9feca994b334c29c63cca3f663aba919be1ac166afe91b38cc370242a1c",
+        "expected_sha256": "cc57b9feca994b334c29c63cca3f663aba919be1ac166afe91b38cc370242a1c",
+        "bytes": 80836,
+        "expected_bytes": 80836
       },
       {
         "name": "ai_decisions_v6.csv",
         "status": "verified",
-        "sha256": "d3cd130402d4d494416e62e20234f17139687e3c9a8ede7307917702c9a0b87a",
-        "expected_sha256": "d3cd130402d4d494416e62e20234f17139687e3c9a8ede7307917702c9a0b87a",
-        "bytes": 22377,
-        "expected_bytes": 22377
+        "sha256": "7cef343fa5a20e90d2df6478bb6935eb26ab28460d308905e421c37ba49d295d",
+        "expected_sha256": "7cef343fa5a20e90d2df6478bb6935eb26ab28460d308905e421c37ba49d295d",
+        "bytes": 23433,
+        "expected_bytes": 23433
       },
       {
         "name": "state.json",
         "status": "verified",
-        "sha256": "aab2057ea7094bfba19b47e551d4f0a37ca6866ea928ae6f5d2f48f914742525",
-        "expected_sha256": "aab2057ea7094bfba19b47e551d4f0a37ca6866ea928ae6f5d2f48f914742525",
-        "bytes": 14350,
-        "expected_bytes": 14350
+        "sha256": "2a25f8f1292aa61c2d8336349db91ec3552d95af4725b07926db1b92afe31e7e",
+        "expected_sha256": "2a25f8f1292aa61c2d8336349db91ec3552d95af4725b07926db1b92afe31e7e",
+        "bytes": 16826,
+        "expected_bytes": 16826
       }
     ],
     "sources": [
+      {
+        "date": "2026-11-13",
+        "created_at": "2026-11-13T13:35:28.000Z",
+        "account_observed_at": "2026-11-13T13:25:38.359966+09:00",
+        "archive_sha": "d9495c9bddd11c1a2c22c5e4249b0924ea002ba9",
+        "verified_files": 6,
+        "checked_files": 6
+      },
       {
         "date": "2026-11-12",
         "created_at": "2026-11-12T07:23:07.000Z",
@@ -499,6 +518,13 @@
     ],
     "origins": [
       {
+        "date": "2026-11-12",
+        "total": 71,
+        "eligible": 0,
+        "first_pending_archives": "2026-11-13",
+        "outcome_dates": ""
+      },
+      {
         "date": "2026-11-11",
         "total": 71,
         "eligible": 0,
@@ -529,9 +555,9 @@
       {
         "date": "2026-11-05",
         "total": 71,
-        "eligible": 0,
+        "eligible": 71,
         "first_pending_archives": "2026-11-07",
-        "outcome_dates": ""
+        "outcome_dates": "2026-11-12"
       },
       {
         "date": "2026-11-04",
@@ -562,6 +588,6 @@
   ],
   "refresh": {
     "status": "verified",
-    "attempted_at": "2026-11-13T13:20:10.062Z"
+    "attempted_at": "2026-11-13T20:34:47.398Z"
   }
 }
