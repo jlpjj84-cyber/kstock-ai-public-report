@@ -4,156 +4,156 @@
   "read_only": true,
   "source": {
     "url": "https://kstock-ai-console.keenskunk257.chatgpt.site",
-    "assessment_date": "2026-11-16",
-    "account_observed_at": "2026-11-16T15:25:46.477749+09:00",
-    "checked_at": "2026-11-18T06:03:50.530Z",
-    "archive_count": 10,
-    "available_archive_count": 10,
+    "assessment_date": "2026-11-18",
+    "account_observed_at": "2026-11-18T15:25:46.640361+09:00",
+    "checked_at": "2026-11-18T15:54:13.198Z",
+    "archive_count": 11,
+    "available_archive_count": 11,
     "scope_limited": false,
     "analysis_revision": "0fa7fc10c46163155211308b59084a23e458547a"
   },
   "training": {
     "status": "검증 대기",
     "evidenced_models": 0,
-    "recorded_training_samples": 7952,
+    "recorded_training_samples": 8094,
     "recorded_validation_samples": 2130,
     "recorded_gate_ready": false,
-    "recorded_validation_brier": 0.23743789449752686,
-    "recorded_baseline_brier": 0.236893928122727,
+    "recorded_validation_brier": 0.23633935822419103,
+    "recorded_baseline_brier": 0.23731018757911804,
     "history": [
       {
-        "time": "2026-11-16T15:25:46.477749+09:00",
+        "time": "2026-11-18T15:25:46.640361+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T15:21:13.408833+09:00",
+        "time": "2026-11-18T15:20:38.351765+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T15:10:41.261331+09:00",
+        "time": "2026-11-18T15:10:47.927116+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T14:55:40.637861+09:00",
+        "time": "2026-11-18T14:55:43.266171+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T14:40:45.950086+09:00",
+        "time": "2026-11-18T14:40:40.339666+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T14:25:44.277268+09:00",
+        "time": "2026-11-18T14:25:37.537138+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T14:10:51.239472+09:00",
+        "time": "2026-11-18T14:10:47.197412+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T13:55:40.279634+09:00",
+        "time": "2026-11-18T13:55:43.713096+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T13:40:55.883781+09:00",
+        "time": "2026-11-18T13:40:49.994581+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T13:25:41.663064+09:00",
+        "time": "2026-11-18T13:25:39.684058+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T13:10:50.715700+09:00",
+        "time": "2026-11-18T13:10:54.430599+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       },
       {
-        "time": "2026-11-16T12:55:36.711619+09:00",
+        "time": "2026-11-18T12:55:40.642815+09:00",
         "kind": "evaluation",
         "version": null,
-        "samples": 7952,
+        "samples": 8094,
         "completed": false,
         "status": "검증 대기"
       }
     ]
   },
   "predictions": {
-    "eligible": 284,
-    "total": 639,
-    "overall": 63.732394366197184,
-    "cohorts": 4,
+    "eligible": 426,
+    "total": 781,
+    "overall": 62.441314553990615,
+    "cohorts": 6,
     "windows": [
       {
         "size": 5,
-        "samples": 284,
-        "days": 4,
-        "accuracy": null,
+        "samples": 355,
+        "days": 5,
+        "accuracy": 62.53521126760564,
         "change": null,
-        "start": "2026-10-22",
-        "end": "2026-11-06",
-        "reason": "확인된 예측 거래일 4 / 5일"
+        "start": "2026-11-04",
+        "end": "2026-11-10",
+        "reason": null
       },
       {
         "size": 20,
-        "samples": 284,
-        "days": 4,
+        "samples": 426,
+        "days": 6,
         "accuracy": null,
         "change": null,
-        "start": "2026-09-29",
-        "end": "2026-11-06",
-        "reason": "확인된 예측 거래일 4 / 20일"
+        "start": "2026-10-01",
+        "end": "2026-11-10",
+        "reason": "확인된 예측 거래일 6 / 20일"
       },
       {
         "size": 60,
-        "samples": 284,
-        "days": 4,
+        "samples": 426,
+        "days": 6,
         "accuracy": null,
         "change": null,
         "start": "2026-08-31",
-        "end": "2026-11-06",
-        "reason": "확인된 예측 거래일 4 / 60일"
+        "end": "2026-11-10",
+        "reason": "확인된 예측 거래일 6 / 60일"
       }
     ],
     "trend": [
@@ -180,19 +180,31 @@
         "w5": null,
         "w20": null,
         "w60": null
+      },
+      {
+        "date": "2026-11-09",
+        "w5": 63.94366197183099,
+        "w20": null,
+        "w60": null
+      },
+      {
+        "date": "2026-11-10",
+        "w5": 62.53521126760564,
+        "w20": null,
+        "w60": null
       }
     ]
   },
   "confidence": {
-    "samples": 284,
-    "days": 4,
-    "brier": null,
-    "baseline": null,
-    "skill": null,
+    "samples": 355,
+    "days": 5,
+    "brier": 0.2361769168856895,
+    "baseline": 0.25,
+    "skill": 5.529233245724196,
     "ece": null,
-    "start": "2026-10-22",
-    "end": "2026-11-06",
-    "reason": "동일한 5거래일의 사전 예측 30건 이상 필요",
+    "start": "2026-11-04",
+    "end": "2026-11-10",
+    "reason": null,
     "bins": [
       {
         "label": "0–20%",
@@ -204,24 +216,24 @@
       },
       {
         "label": "20–40%",
-        "samples": 6,
-        "days": 2,
+        "samples": 9,
+        "days": 3,
         "predicted": null,
         "actual": null,
         "gap": null
       },
       {
         "label": "40–60%",
-        "samples": 278,
-        "days": 4,
-        "predicted": null,
-        "actual": null,
-        "gap": null
+        "samples": 340,
+        "days": 5,
+        "predicted": 47.31513148823528,
+        "actual": 40.294117647058826,
+        "gap": -7.021013841176455
       },
       {
         "label": "60–80%",
-        "samples": 0,
-        "days": 0,
+        "samples": 6,
+        "days": 1,
         "predicted": null,
         "actual": null,
         "gap": null
@@ -238,20 +250,20 @@
   },
   "account": {
     "start": "2026-11-03",
-    "returnPct": 2.644,
-    "mdd": 1.292,
-    "winRate": 57.89473684210526,
-    "averagePnl": 13958.391052631581,
-    "sells": 19,
+    "returnPct": 1.15,
+    "mdd": 2.838,
+    "winRate": 45.833333333333336,
+    "averagePnl": 5794.567083333336,
+    "sells": 24,
     "wins": 11,
     "benchmark": {
       "start": "2026-11-03",
-      "end": "2026-11-16",
-      "strategy": 2.6444252999999973,
-      "hold": -9.663744561044274,
-      "excess": 12.30816986104427,
-      "strategyMdd": 0.7289707513840142,
-      "holdMdd": 11.469897391519348,
+      "end": "2026-11-18",
+      "strategy": 1.1498758000000109,
+      "hold": -10.009811449535022,
+      "excess": 11.159687249535033,
+      "strategyMdd": 2.174402071150019,
+      "holdMdd": 12.285643643042592,
       "points": [
         {
           "date": "2026-11-03",
@@ -302,13 +314,23 @@
           "date": "2026-11-16",
           "strategy": 2.6444252999999973,
           "hold": -9.663744561044274
+        },
+        {
+          "date": "2026-11-17",
+          "strategy": 1.437823699999985,
+          "hold": -11.720949577681095
+        },
+        {
+          "date": "2026-11-18",
+          "strategy": 1.1498758000000109,
+          "hold": -10.009811449535022
         }
       ]
     }
   },
   "strategies": {
     "start": "2026-11-03",
-    "end": "2026-11-16T15:25:46.477749+09:00",
+    "end": "2026-11-18T15:25:46.640361+09:00",
     "later": 0,
     "reason": null,
     "groups": [
@@ -326,11 +348,11 @@
       {
         "id": "experiment",
         "label": "별도 실험매매",
-        "buys": 27,
-        "sells": 19,
-        "pnl": 265209.43000000005,
-        "winRate": 57.89473684210527,
-        "averagePnl": 13958.391052631581,
+        "buys": 32,
+        "sells": 24,
+        "pnl": 139069.61000000007,
+        "winRate": 45.83333333333333,
+        "averagePnl": 5794.567083333336,
         "returnPct": null,
         "mdd": null
       },
@@ -375,7 +397,7 @@
       {
         "name": "사전 예측·결과 시점",
         "status": "pending",
-        "detail": "채점 가능 284 / 639건 · 나머지 평가 제외"
+        "detail": "채점 가능 426 / 781건 · 나머지 평가 제외"
       },
       {
         "name": "계좌·거래·검증 로그 시각",
@@ -407,53 +429,61 @@
       {
         "name": "trades_v5.csv",
         "status": "verified",
-        "sha256": "e0d51da2efa9fe9c059fbc9745c2402d5e0104ed918a8a302a9854a2d527f712",
-        "expected_sha256": "e0d51da2efa9fe9c059fbc9745c2402d5e0104ed918a8a302a9854a2d527f712",
-        "bytes": 31107,
-        "expected_bytes": 31107
+        "sha256": "ba58fd25630cb9f279f52a123fe55de30ac24f659ab401787de969b0d7456a8c",
+        "expected_sha256": "ba58fd25630cb9f279f52a123fe55de30ac24f659ab401787de969b0d7456a8c",
+        "bytes": 33875,
+        "expected_bytes": 33875
       },
       {
         "name": "daily_v5.csv",
         "status": "verified",
-        "sha256": "4e8c5905cd7d7ee0aead5c097d6963537ce82c16b6bf7b93c2fc47914581fed3",
-        "expected_sha256": "4e8c5905cd7d7ee0aead5c097d6963537ce82c16b6bf7b93c2fc47914581fed3",
-        "bytes": 17006,
-        "expected_bytes": 17006
+        "sha256": "4cc8c4cc0116170f67cd5102b1af40411dd84261d37a3ed31fb25355b3f1267f",
+        "expected_sha256": "4cc8c4cc0116170f67cd5102b1af40411dd84261d37a3ed31fb25355b3f1267f",
+        "bytes": 17795,
+        "expected_bytes": 17795
       },
       {
         "name": "intraday_v5.csv",
         "status": "verified",
-        "sha256": "2c188aab98ddec79a68389561eb920aa037610c27b8b752c2d6382951033f051",
-        "expected_sha256": "2c188aab98ddec79a68389561eb920aa037610c27b8b752c2d6382951033f051",
-        "bytes": 414944,
-        "expected_bytes": 414944
+        "sha256": "8d5697226ffa379f5f643d58fa5d61205752beff580f61a52990ca56495a0e50",
+        "expected_sha256": "8d5697226ffa379f5f643d58fa5d61205752beff580f61a52990ca56495a0e50",
+        "bytes": 428150,
+        "expected_bytes": 428150
       },
       {
         "name": "ai_forecasts_v6.csv",
         "status": "verified",
-        "sha256": "1a9ce05b74b0b4cee95f939ddc05b1c63d3b354c09fd2f642c56f00d7ddd2190",
-        "expected_sha256": "1a9ce05b74b0b4cee95f939ddc05b1c63d3b354c09fd2f642c56f00d7ddd2190",
-        "bytes": 92271,
-        "expected_bytes": 92271
+        "sha256": "d0d2993dc2b907d4a6e6d4a7d2a2caef6e4ae26c5a1b7cacf0abab3cc83eb16d",
+        "expected_sha256": "d0d2993dc2b907d4a6e6d4a7d2a2caef6e4ae26c5a1b7cacf0abab3cc83eb16d",
+        "bytes": 115150,
+        "expected_bytes": 115150
       },
       {
         "name": "ai_decisions_v6.csv",
         "status": "verified",
-        "sha256": "505b4898bd8c09aeb43cbeed27e78da305705b3c64f69a3b0d2817ef9a993e8a",
-        "expected_sha256": "505b4898bd8c09aeb43cbeed27e78da305705b3c64f69a3b0d2817ef9a993e8a",
-        "bytes": 25521,
-        "expected_bytes": 25521
+        "sha256": "01fd3c189cb7c162b50fad0494e40f94fb69ffcca528b5c6d7bec5494a4ae60a",
+        "expected_sha256": "01fd3c189cb7c162b50fad0494e40f94fb69ffcca528b5c6d7bec5494a4ae60a",
+        "bytes": 31471,
+        "expected_bytes": 31471
       },
       {
         "name": "state.json",
         "status": "verified",
-        "sha256": "69aa642930d8eacf776115e54f16dc2cb513190ae2194eb44021620d1198312b",
-        "expected_sha256": "69aa642930d8eacf776115e54f16dc2cb513190ae2194eb44021620d1198312b",
-        "bytes": 19336,
-        "expected_bytes": 19336
+        "sha256": "fd38ecc1359dc499716f3068cff6d085b5713bae5210ee9cee430b0e268a3475",
+        "expected_sha256": "fd38ecc1359dc499716f3068cff6d085b5713bae5210ee9cee430b0e268a3475",
+        "bytes": 21707,
+        "expected_bytes": 21707
       }
     ],
     "sources": [
+      {
+        "date": "2026-11-18",
+        "created_at": "2026-11-18T12:30:33.000Z",
+        "account_observed_at": "2026-11-18T15:25:46.640361+09:00",
+        "archive_sha": "f4dce3b925e4ece67eafeaa8132e19849a453f8d",
+        "verified_files": 6,
+        "checked_files": 6
+      },
       {
         "date": "2026-11-16",
         "created_at": "2026-11-16T10:53:56.000Z",
@@ -537,6 +567,20 @@
     ],
     "origins": [
       {
+        "date": "2026-11-17",
+        "total": 71,
+        "eligible": 0,
+        "first_pending_archives": "2026-11-18",
+        "outcome_dates": ""
+      },
+      {
+        "date": "2026-11-16",
+        "total": 71,
+        "eligible": 0,
+        "first_pending_archives": "2026-11-18",
+        "outcome_dates": ""
+      },
+      {
         "date": "2026-11-13",
         "total": 71,
         "eligible": 0,
@@ -560,16 +604,16 @@
       {
         "date": "2026-11-10",
         "total": 71,
-        "eligible": 0,
+        "eligible": 71,
         "first_pending_archives": "2026-11-11",
-        "outcome_dates": ""
+        "outcome_dates": "2026-11-17"
       },
       {
         "date": "2026-11-09",
         "total": 71,
-        "eligible": 0,
+        "eligible": 71,
         "first_pending_archives": "2026-11-10",
-        "outcome_dates": ""
+        "outcome_dates": "2026-11-16"
       },
       {
         "date": "2026-11-06",
@@ -614,6 +658,6 @@
   ],
   "refresh": {
     "status": "verified",
-    "attempted_at": "2026-11-18T06:03:50.530Z"
+    "attempted_at": "2026-11-18T15:54:13.198Z"
   }
 }
