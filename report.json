@@ -6,7 +6,7 @@
     "url": "https://kstock-ai-console.keenskunk257.chatgpt.site",
     "assessment_date": "2026-11-18",
     "account_observed_at": "2026-11-18T15:25:46.640361+09:00",
-    "checked_at": "2026-11-19T21:42:12.457Z",
+    "checked_at": "2026-11-20T05:52:49.570Z",
     "archive_count": 11,
     "available_archive_count": 11,
     "scope_limited": false,
@@ -658,6 +658,6 @@
   ],
   "refresh": {
     "status": "verified",
-    "attempted_at": "2026-11-19T21:42:12.457Z"
+    "attempted_at": "2026-11-20T05:52:49.570Z"
   }
 }
